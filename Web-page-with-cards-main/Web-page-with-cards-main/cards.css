@@ -1,0 +1,51 @@
+.cards{
+    margin: 0;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.card{
+    box-shadow: 10px 21px 30px rgb(147, 147, 147);
+}
+
+.card__image{
+    width: 100%;
+    display: block;
+}
+
+.card__content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 10px;
+    background: #fafafa;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+.card__content > p:last-of-type {
+    margin-top: 0;
+}
+
+.card__info{
+    padding: 15px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #cccccc;
+}
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__button{
+    color: #64968c;
+}
